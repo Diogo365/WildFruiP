@@ -1,6 +1,6 @@
 # WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild
 
-This is the official implementation of the paper [WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild](https://stillonprogress).
+This is the official implementation of the paper [WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild](https://link.springer.com/chapter/10.1007/978-3-031-49018-7_23).
 
 ## Abstract
 
