@@ -89,12 +89,25 @@ To estimate the fruit physicochemical parameters it is needed to supply the max 
 If you find this work useful in your research, please consider citing:
 
 ```
-@proceedings{paulo2023wildfruip,
-  author = {Diogo J. Paulo and João C. Neves and Cláudia M. B. Neves and Dulcineia Ferreira Wessel},
-  title = {WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild},
-  booktitle = {26th Iberoamerican Congress on Pattern Recognition (CIARP)},
-  year = {2023}
+@InProceedings{10.1007/978-3-031-49018-7_23,
+author="Paulo, Diogo J.
+and Neves, Cl{\'a}udia M. B.
+and Wessel, Dulcineia Ferreira
+and Neves, Jo{\~a}o C.",
+editor="Vasconcelos, Ver{\'o}nica
+and Domingues, In{\^e}s
+and Paredes, Sim{\~a}o",
+title="WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild",
+booktitle="Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="314--326",
+abstract="The progress in computer vision has allowed the development of a diversity of precision agriculture systems, improving the efficiency and yield of several processes of farming. Among the different processes, crop monitoring has been extensively studied to decrease the resources consumed and increase the yield, where a myriad of computer vision strategies has been proposed for fruit analysis (e.g., fruit counting) or plant health estimation. Nevertheless, the problem of fruit ripeness estimation has received little attention, particularly when the fruits are still on the tree. As such, this paper introduces a strategy to estimate the maturation stage of fruits based on images acquired from handheld devices while the fruit is still on the tree. Our approach relies on an image segmentation strategy to crop and align fruit images, which a CNN subsequently processes to extract a compact visual descriptor of the fruit. A non-linear regression model is then used for learning a mapping between descriptors to a set of physicochemical parameters, acting as a proxy of the fruit maturation stage. The proposed method is robust to the variations in position, lighting, and complex backgrounds, being ideal for working in the wild with minimal image acquisition constraints. Source code is available at https://github.com/Diogo365/WildFruiP.",
+isbn="978-3-031-49018-7"
 }
+
+
 ```
 
 ## Acknowledgements
